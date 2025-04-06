@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "y-rosalind-solutions"
+version = "0.1.0"
+description = "Bioinformatics project scaffold"
+authors = ["y-rosalind-solutions <christopher.yamba@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
